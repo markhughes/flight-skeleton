@@ -1,0 +1,17 @@
+{
+	"name": "damel/flight-skeleton",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.3",
+		"mikecao/flight": "dev-master"
+	},
+	"suggest": {
+		"nanolog/nanolog": "A simple and lightweight logging solution",
+		"nategood/commando": "Library that beautifies and simplifies writing PHP scripts intended for command line use"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "src/"
+		}
+	}
+}
