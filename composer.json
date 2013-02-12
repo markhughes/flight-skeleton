@@ -1,6 +1,16 @@
 {
 	"name": "damel/flight-skeleton",
+	"description": "Skeleton for applications based on th Flight PHP microframework.",
 	"license": "MIT",
+	"version": "1.0.0",
+	"keywords": ["flight", "skeleton"],
+	"authors": [
+		{
+			"name": "Daniel Melzer",
+			"email": "daniel@melzer.ws",
+			"homepage": "http://daniel.melzer.ws"
+		}
+	],
 	"require": {
 		"php": ">=5.3.3",
 		"mikecao/flight": "dev-master"
