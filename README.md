@@ -3,7 +3,7 @@ This skeleton provides you a quick start for the development of an application w
 
 It also contains some templates based on [HTML5 Boilerplate](http://html5boilerplate.com).
 
-## Downloading the skeletion
+## Downloading the skeleton
 First, check that you have installed and configured a web server (such as Apache) with PHP 5.3.3 or higher. Then use composer to create your project:
 
 `$ composer create-project damel/flight-skeleton path/to/install`
@@ -11,37 +11,46 @@ First, check that you have installed and configured a web server (such as Apache
 You'll find this structure:
 
 ```
-path/to/install/
-	app/
-		config/
-			config.php
-			routes.php
-	logs/
-	resources/
-		templates/
-			404.php
-			index.php
-			layout.php
-	cli/
-	public/
-		css/
-		img/
-		js/
-		.htaccess
-		index.php
-		…
-	src/
-		Acme/
-			Demo/
-				Controller/
-					Demo.php
-	vendor/
-		composer/
-		mikecao/
-		autoload.php
-	composer.json
-	composer.lock
-	…
+path/to/install
+├── app
+│   ├── config
+│   │   ├── config.php
+│   │   └── routes.php
+│   ├── logs
+│   └── resources
+│       └── templates
+│           ├── 404.php
+│           ├── index.php
+│           └── layout.php
+├── cli
+├── public
+│   ├── css
+│   │   ├── main.css
+│   │   └── normalize.css
+│   ├── img
+│   ├── js
+│   │   ├── modernizr-2.6.2.min.js
+│   │   └── plugins.js
+│   ├── .htaccess
+│   ├── apple-touch-icon*.png
+│   ├── crossdomain.xml
+│   ├── favicon.ico
+│   ├── humans.txt
+│   ├── index.php
+│   └── robots.txt
+├── src
+│   └── Acme
+│       └── Demo
+│           └── Controller
+│               └── Demo.php
+├── vendor
+│   ├── composer
+│   ├── mikecao
+│   └── autoload.php
+├── composer.json
+├── composer.lock
+├── LICENSE
+└── README.md
 ```
 
 ## Creating the application
