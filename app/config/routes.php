@@ -5,8 +5,7 @@
 
 //Mappings.
 \Flight::map('notFound', function() {
-	\Flight::render('404', array(), 'content');
-	\Flight::render('layout', array());
+	\Flight::render('404', array());
 });
 
 \Flight::map('error', function(\Exception $e) {
