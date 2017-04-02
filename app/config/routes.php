@@ -1,16 +1,21 @@
 <?php
 
-//Routes of the application.
-\Flight::route('/', array('\Acme\Demo\Controller\Demo', 'index'));
+// -------------------------------------------------- //
+// ROUTES
+// -------------------------------------------------- //
 
-//Mappings.
-\Flight::map('notFound', function() {
-	\Flight::render('404', array());
+Flight::route("/", array("\Acme\Demo\Controller\Demo", "index"));
+
+// -------------------------------------------------- //
+// MAPPINGS
+// -------------------------------------------------- //
+
+Flight::map("notFound", function() {
+	Flight::render("404", []);
 });
 
-\Flight::map('error', function(\Exception $e) {
-	//You probably want to log the error.
-	switch($e->getCode()) {
+Flight::map("error", function($e) {
+	switch ($e->getCode()) {
 		case E_ERROR:
 		case E_USER_ERROR:
 		case E_CORE_ERROR:

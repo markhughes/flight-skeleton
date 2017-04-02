@@ -1,7 +1,13 @@
 <?php
 
-//Configure your application.
+// -------------------------------------------------- //
+// FLIGHT CONFIG
+// -------------------------------------------------- //
 
+Flight::set("flight.views.path", __DIR__ . "/../resources/views/");
 
-//Settings for Flight.
-\Flight::set('flight.views.path', __DIR__ . '/../resources/templates');
+// -------------------------------------------------- //
+// ROUTES
+// -------------------------------------------------- //
+
+require_once("routes.php");

@@ -1,6 +1,14 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
-require __DIR__ . '/../app/config/config.php';
-require __DIR__ . '/../app/config/routes.php';
 
-\Flight::start();
+// -------------------------------------------------- //
+// INIT
+// -------------------------------------------------- //
+
+require_once(__DIR__ . "/../vendor/autoload.php");
+require_once(__DIR__ . "/../app/config/config.php");
+
+// -------------------------------------------------- //
+// LOGIC
+// -------------------------------------------------- //
+
+Flight::start();
