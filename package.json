@@ -1,0 +1,28 @@
+{
+  "name": "flight-skeleton",
+  "version": "1.2.0-alt",
+  "description": "This skeleton provides you a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkehMe/flight-skeleton.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarkehMe/flight-skeleton/issues"
+  },
+  "homepage": "https://github.com/MarkehMe/flight-skeleton#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}

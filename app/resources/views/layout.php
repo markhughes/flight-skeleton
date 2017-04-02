@@ -12,9 +12,8 @@
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-		<link rel="stylesheet" href="/css/normalize.css">
-		<link rel="stylesheet" href="/css/main.css">
-		<script src="/js/modernizr-2.6.2.min.js"></script>
+		<link rel="stylesheet" href="/resources/compiled/compiled.css">
+		<script src="/resources/js/modernizr-2.6.2.min.js"></script>
 	</head>
 
 	<body>
