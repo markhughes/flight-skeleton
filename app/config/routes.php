@@ -15,6 +15,7 @@ Flight::map("notFound", function() {
 });
 
 Flight::map("error", function($e) {
+	print_r($e);
 	switch ($e->getCode()) {
 		case E_ERROR:
 		case E_USER_ERROR:

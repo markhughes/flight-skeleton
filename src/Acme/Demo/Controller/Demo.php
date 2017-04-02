@@ -7,8 +7,7 @@ use Flight;
 class Demo {
 
 	static public function index() {
-		Flight::render("index", [], "content");
-		Flight::render("layout", []);
+		Flight::view()->display("index.twig", []);
 	}
 
 }
