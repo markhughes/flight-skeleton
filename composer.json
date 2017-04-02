@@ -18,7 +18,8 @@
   ],
   "require": {
     "php": ">=7.0",
-    "mikecao/flight": "~1.3"
+    "mikecao/flight": "~1.3",
+    "monolog/monolog": "^1.22"
   },
   "autoload": {
     "psr-0": {
