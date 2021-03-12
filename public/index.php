@@ -21,7 +21,7 @@ foreach (FLIGHT_SET_VARS as $key => $value) {
 // Setup logger
 $logger = new \Monolog\Logger(APP_NAME);
 
-foreach (create_log_handlers($logger) as $logHandler) {
+foreach (create_log_handlers() as $logHandler) {
     $logger->pushHandler($logHandler);
 }
 
