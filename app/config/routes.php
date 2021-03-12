@@ -11,11 +11,11 @@ Flight::route("/", array("\Acme\Demo\Controller\Demo", "index"));
 // -------------------------------------------------- //
 
 Flight::map("notFound", function() {
-	Flight::render("404", []);
+    Flight::render("404", []);
 });
 
 Flight::map("error", function($exception) {
-	global $logger;
+    global $logger;
 
-	$logger->error($exception);
+    $logger->error($exception);
 });

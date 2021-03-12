@@ -37,15 +37,15 @@ $twig_config = [
 ];
 
 Flight::register("view", "Twig_Environment", [ $twig_loader, $twig_config ], function ($twig) {
-	$twig->addExtension(new Twig_Extensions_Extension_Text());
+    $twig->addExtension(new Twig_Extensions_Extension_Text());
 
-	if (function_exists("collator_create")) {
-		$twig->addExtension(new Twig_Extensions_Extension_Intl());
-	}
+    if (function_exists("collator_create")) {
+        $twig->addExtension(new Twig_Extensions_Extension_Intl());
+    }
 
-	if (DEBUG) {
-		$twig->addExtension(new Twig_Extension_Debug());
-	}
+    if (DEBUG) {
+        $twig->addExtension(new Twig_Extension_Debug());
+    }
 });
 
 // -------------------------------------------------- //

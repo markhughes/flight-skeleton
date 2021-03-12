@@ -6,8 +6,8 @@ use Flight;
 
 class Demo {
 
-	static public function index() {
-		Flight::view()->display("index.twig", []);
-	}
+    static public function index() {
+        Flight::view()->display("index.twig", []);
+    }
 
 }
