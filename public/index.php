@@ -6,6 +6,7 @@
 
 require_once(__DIR__ . "/../vendor/autoload.php");
 require_once(__DIR__ . "/../app/config/config.php");
+require_once(__DIR__ . "/../app/config/log_handlers.php");
 require_once(__DIR__ . "/../app/config/routes.php");
 
 // -------------------------------------------------- //
@@ -20,7 +21,7 @@ foreach (FLIGHT_SET_VARS as $key => $value) {
 // Setup logger
 $logger = new \Monolog\Logger(APP_NAME);
 
-foreach (LOG_HANDLERS as $logHandler) {
+foreach (create_log_handlers($logger) as $logHandler) {
     $logger->pushHandler($logHandler);
 }
 
