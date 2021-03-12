@@ -4,7 +4,7 @@ This skeleton provides a quick start for the development of an application with 
 ## Downloading the skeleton
 First, check that you have installed and configured a web server (such as Nginx) with PHP 7 or higher. Then use git to clone this repo:
 
-`$ git clone https://github.com/MarkehMe/flight-skeleton.git my-app-name`
+`$ git clone https://github.com/markhughes/flight-skeleton.git my-app-name`
 
 ## Creating the application
 If you want to define global constants or other settings, you can use the `config.php` in `app/config/`.
