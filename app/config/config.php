@@ -1,9 +1,5 @@
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\FirePHPHandler;
-
 // -------------------------------------------------- //
 // APP CONFIG
 // -------------------------------------------------- //
@@ -18,16 +14,6 @@ define("DEBUG", true);
 define("FLIGHT_SET_VARS", [
     'flight.views.path' => __DIR__ . "/../resources/views/"
 ]);
-
-// -------------------------------------------------- //
-// MONOLOG
-// -------------------------------------------------- //
-
-define("LOG_HANDLERS", [
-    new StreamHandler(__DIR__ . "/../../var/logs/application.log", Logger::DEBUG),
-    new FirePHPHandler(),
-]);
-
 
 // -------------------------------------------------- //
 // TWIG TEMPLATES
