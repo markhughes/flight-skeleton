@@ -7,6 +7,8 @@
 define("APP_NAME", "my_app");
 define("DEBUG", true);
 
+//... add more here for your app!
+
 // -------------------------------------------------- //
 // FLIGHT CONFIG
 // -------------------------------------------------- //

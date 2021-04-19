@@ -2,8 +2,9 @@
     "name": "flight-skeleton",
     "version": "1.2.0-alt",
     "description": "This skeleton provides you a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework.",
-    "main": "Gruntfile.js",
+    "private": "true",
     "scripts": {
+        "webpack": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -17,12 +18,20 @@
     },
     "homepage": "https://github.com/markhughes/flight-skeleton#readme",
     "devDependencies": {
-        "grunt": "^1.0.1",
-        "grunt-contrib-cssmin": "^2.0.0",
-        "grunt-sass": "^2.0.0",
-        "load-grunt-tasks": "^3.5.2"
+        "autoprefixer": "^10.2.5",
+        "css-loader": "^5.2.2",
+        "postcss-loader": "^5.2.0",
+        "precss": "^4.0.0",
+        "sass": "^1.32.10",
+        "sass-loader": "^11.0.1",
+        "style-loader": "^2.0.0",
+        "ts-loader": "^9.0.0",
+        "typescript": "^4.2.4",
+        "webpack": "^5.33.2",
+        "webpack-cli": "^4.6.0"
     },
     "dependencies": {
-        "grunt": "^1.0.1"
+        "bootstrap": "^4.6.0",
+        "popper.js": "^1.16.1"
     }
 }

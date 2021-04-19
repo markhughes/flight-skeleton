@@ -4,3 +4,4 @@ node_modules
 public/resources/compiled
 var/cache
 var/logs
+dist/
