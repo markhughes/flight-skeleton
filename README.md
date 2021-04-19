@@ -2,7 +2,7 @@
 This skeleton provides a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework.
 
 ## Downloading the skeleton
-First, check that you have installed and configured a web server (such as Nginx) with PHP 7 or higher. Then use git to clone this repo:
+First, check that you have installed and configured a web server (such as Nginx) with PHP 8 or higher. Then use git to clone this repo:
 
 `$ git clone https://github.com/markhughes/flight-skeleton.git my-app-name`
 
