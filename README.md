@@ -1,10 +1,13 @@
 # Flight Skeleton
-This skeleton provides a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework.
+This skeleton provides a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework. The 
+goal here is to get going as fast as possible.
 
 It also adds support for Sass, Twig, and even TypeScript!
 
 ## Downloading the skeleton
-First, check that you have installed and configured a web server (such as Nginx) with PHP 8 or higher. Then use git to clone this repo:
+First, check that you have installed and configured a web server (such as Nginx) with PHP 8 or higher. 
+
+You can either use this [template on github](https://github.com/markhughes/flight-skeleton/generate), or use git to clone this repo:
 
 `$ git clone https://github.com/markhughes/flight-skeleton.git my-app-name`
 
