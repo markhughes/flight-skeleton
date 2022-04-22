@@ -23,6 +23,8 @@ To define your routes, use the file `app/config/routes.php`:
 Flight::route("/", ["\Acme\Demo\Controller\Demo", "index"]);
 ```
 
+An example API router has been created in `src/Acme/Demo/Controller/API.php` where `Flight::json` is used to send the response back.
+
 ### Controllers
 Place your code in the `src` folder. All classes from here are autoloaded by their namespace. For an example, have a look in the demo code in `src/Acme/demo/Controller/Demo.php`. As you can see, the controller uses the namespace `Acme\Demo\Controller`.
 
@@ -34,7 +36,9 @@ Your application logs into `var/logs`. Should you want to, you can add more logg
 `app/logger.php`.
 
 ### Webpack
-Compile your scripts using `npm run webpack` which will throw it all together in `public/dist/main.js` - check the webpack docs on how to use it more effectively. Your entrypoint is located in `app/resources/scripts/index.ts` if you don't want to use TypeScript just rename index.ts to index.js.
+Compile your scripts using `npm run build` which will throw it all together in `public/dist/main.js` - check the webpack docs on how to use it more effectively. Your entrypoint is located in `app/resources/scripts/index.ts` if you don't want to use TypeScript just rename index.ts to index.js.
+
+You can also run `npm run dev` to start webpack in watch mode, great for development.
 
 # License
 The skeleton is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
