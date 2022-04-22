@@ -21,12 +21,9 @@ module.exports = {
           options: {
             postcssOptions: {
               plugins: [
-                  require('precss'),
                   require('autoprefixer')
                 ]
-              
             }
-            
           }
         }, {
           loader: 'sass-loader' // compiles Sass to CSS
