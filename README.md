@@ -40,5 +40,8 @@ Compile your scripts using `npm run build` which will throw it all together in `
 
 You can also run `npm run dev` to start webpack in watch mode, great for development.
 
+## Volta
+This project uses [Volta](https://volta.sh/) to manage the node and npm version, it is optional to setup but it is a great tool to manage your JavaScript toolchain.
+
 # License
 The skeleton is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
