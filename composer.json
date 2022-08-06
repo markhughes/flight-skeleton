@@ -1,29 +1,33 @@
 {
-    "name": "markhughes/flight-skeleton",
-    "description": "Skeleton for applications based on the Flight PHP microframework.",
-    "license": "MIT",
-    "version": "1.0.0",
-    "keywords": ["flight", "skeleton"],
-    "authors": [{
-            "name": "Mark Hughes",
-            "email": "m@rkhugh.es",
-            "homepage": "https://ma.rkhugh.es"
-        },
-        {
-            "name": "Daniel Melzer",
-            "email": "daniel@melzer.ws",
-            "homepage": "http://daniel.melzer.ws"
-        }
-    ],
-    "require": {
-        "php": ">=8.0",
-        "mikecao/flight": "~2.0",
-        "monolog/monolog": "^2.5.0",
-        "twig/twig": "~3.0"
+  "name": "markhughes/flight-skeleton",
+  "description": "Skeleton for applications based on the Flight PHP microframework.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "flight",
+    "skeleton"
+  ],
+  "authors": [
+    {
+      "name": "Mark Hughes",
+      "email": "m@rkhugh.es",
+      "homepage": "https://ma.rkhugh.es"
     },
-    "autoload": {
-        "psr-0": {
-            "": "src/"
-        }
+    {
+      "name": "Daniel Melzer",
+      "email": "daniel@melzer.ws",
+      "homepage": "http://daniel.melzer.ws"
     }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "mikecao/flight": "~2.0",
+    "monolog/monolog": "^3.2.0",
+    "twig/twig": "~3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  }
 }

@@ -42,6 +42,12 @@ Twig templates are loaded by default from `app/resouces/views/`. You can change 
 Your application logs into `var/logs`. Should you want to, you can add more loggers in `app/config/logger_handlers.php`, or completely reconfigure it in
 `app/logger.php`.
 
+You can then at any time log messages, for example:
+
+```php
+$logger->info('hello world!');
+```
+
 ### Webpack
 
 Compile your scripts using `npm run build` which will throw it all together in `public/dist/main.js` - check the webpack docs on how to use it more effectively. Your entrypoint is located in `app/resources/scripts/index.ts` if you don't want to use TypeScript just rename index.ts to index.js.
