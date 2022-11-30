@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "flight-skeleton",
     "version": "1.2.0-alt",
     "description": "This skeleton provides you a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework.",
@@ -38,4 +39,45 @@
         "node": "18.0.0",
         "npm": "8.7.0"
     }
+=======
+  "name": "flight-skeleton",
+  "version": "1.2.0-alt",
+  "description": "This skeleton provides you a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework.",
+  "private": "true",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markhughes/flight-skeleton.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markhughes/flight-skeleton/issues"
+  },
+  "homepage": "https://github.com/markhughes/flight-skeleton#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "css-loader": "^6.7.1",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "popper.js": "^1.16.1"
+  },
+  "volta": {
+    "node": "16.16.0",
+    "npm": "8.16.0"
+  }
+>>>>>>> f52ff2973f9f13ca98806baa95adc347b52b665c
 }
