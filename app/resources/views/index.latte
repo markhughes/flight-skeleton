@@ -1,16 +1,17 @@
-{% extends "layout.twig" %}
+{layout 'layout.latte'}
 
-{% block content %}
+
+{block content}
 
 <!-- Add your site or application content here -->
 
 <main role="main" class="container">
-  <h1 class="mt-5">{{ introduction_title }}</h1>
-  <p>{{ introduction_text }}</p>
+  <h1 class="mt-5">{$introduction_title}</h1>
+  <p>{$introduction_text}</p>
   It comes configured ready to go with:
   <ul>
   <li><a href="https://github.com/mikecao/flight">Flight</a></li>
-  <li><a href="https://github.com/twigphp/Twig">Twig</a> or <a href="https://latte.nette.org/">Latte</a> (this is Twig right now!)</li>
+  <li><a href="https://github.com/twigphp/Twig">Twig</a> or <a href="https://latte.nette.org/">Latte</a> (this is Latte right now!)</li>
   <li><a href="https://github.com/composer/composer">Composer</a></li>
   <li><a href="https://github.com/Seldaek/monolog">Monolog</a></li>
   <li><a href="https://github.com/webpack/webpack">Webpack</a></li>
@@ -25,4 +26,4 @@
 </main>
 
 
-{% endblock %}
+{/block}

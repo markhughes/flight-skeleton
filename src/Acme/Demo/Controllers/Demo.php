@@ -13,6 +13,6 @@ class Demo
             "introduction_text" => "This is the skeleton for a Flight app."
         ];
 
-        Flight::view()->display("index.twig", $context);
+        Flight::render("index", $context);
     }
 }

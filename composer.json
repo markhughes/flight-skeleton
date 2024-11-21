@@ -24,7 +24,8 @@
     "mikecao/flight": "~3.12",
     "monolog/monolog": "^3.7.0",
     "twig/twig": "~3.14",
-    "flightphp/runway": "^1.1"
+    "flightphp/runway": "^1.1",
+    "latte/latte": "^3.0"
   },
   "autoload": {
     "psr-0": {

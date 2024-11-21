@@ -3,7 +3,7 @@
 This skeleton provides a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework. The
 goal here is to get going as fast as possible.
 
-It also adds support for Runway (CLI), Sass, Twig, and even TypeScript (it also includes Volta for npm version managing)!
+It also adds support for Runway (CLI), Sass, Twig or Latte, and even TypeScript (it also includes Volta for npm version managing)!
 
 ## Downloading the skeleton
 
@@ -35,7 +35,11 @@ Place your code in the `src` folder. All classes from here are autoloaded by the
 
 ### Templates
 
-Twig templates are loaded by default from `app/resouces/views/`. You can change this by editing the path in `app/config/config.php`.
+Twig and Latte templates are loaded by default from `app/resouces/views/`. You can change this by editing the path set in `FLIGHT_SET_VARS` from the `app/config/config.php` file.
+
+You should call `Flight::render("template name", [ ... optional contenxt ... ])` directly, and .twig or .latte is added for you.
+
+You can easily change the template engine in `app/config/config.php` and change `TEMPLATE_ENGINE` to either `twig` or `latte`
 
 ### Logging
 
