@@ -1,0 +1,5 @@
+{
+  "index_root": "public/index.php",
+  "app_root": "src/Acme/Demo/",
+  "root_paths": ["."]
+}

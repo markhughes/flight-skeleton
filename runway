@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+if (!file_exists("vendor/bin/runway")) {
+    echo("Runway not installed. Please run 'composer install' first.\n");
+    exit(1);
+}
+
+require_once("vendor/bin/runway");

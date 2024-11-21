@@ -21,9 +21,10 @@
   ],
   "require": {
     "php": ">=8.0",
-    "mikecao/flight": "~2.0",
-    "monolog/monolog": "^3.2.0",
-    "twig/twig": "~3.0"
+    "mikecao/flight": "~3.12",
+    "monolog/monolog": "^3.7.0",
+    "twig/twig": "~3.14",
+    "flightphp/runway": "^1.1"
   },
   "autoload": {
     "psr-0": {

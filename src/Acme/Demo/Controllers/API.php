@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\Demo\Controller;
+namespace Acme\Demo\Controllers;
 
 use Flight;
 use Flight\template\View;
