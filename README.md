@@ -1,3 +1,10 @@
+> [!WARNING]
+> This repository is archived and is no longer the recommended starting point for new projects.
+> Please use the **Flight PHP Skeleton App** instead from here:
+> 
+> [https://github.com/flightphp/skeleton](https://github.com/flightphp/skeleton)
+> 
+
 # Flight Skeleton
 
 This skeleton provides a quick start for the development of an application with the [Flight](http://flightphp.com) PHP microframework. The
